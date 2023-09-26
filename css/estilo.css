@@ -1,0 +1,250 @@
+
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+ 
+}
+
+
+body{
+	background:url(imagenes_estilo/fondo.jpg);
+}
+
+header{
+	padding-top: 20px;
+	padding-left: 3% ;
+	padding-right: 3%;
+}
+
+
+nav{
+	padding-top: 20px;
+	padding-left: 5% ;
+	padding-right: 5%;
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0px 20px; 
+}
+
+a{
+	color:white;	
+}
+
+a:hover{
+	color: black;
+}
+
+#contenido{	
+	width:  1200px;
+	height: 700px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+
+	background: #A4A4A4;
+	padding-left: 3%;
+    float: left;
+
+    border-radius: 20px;
+	overflow: hidden;
+
+	color: white;
+
+}
+
+#contenido_c{	
+	width:  1200px;
+	height: 1000px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+
+	background: #A4A4A4;
+	padding-left: 3%;
+    float: left;
+
+    border-radius: 20px;
+	overflow: hidden;
+
+	color: white;
+
+}
+
+#contenido_i{	
+	width:  1550px;
+	height: 1000px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+
+	background: #A4A4A4;
+	padding-left: 3%;
+   float: left;
+
+   border-radius: 20px;
+	overflow: hidden;
+
+	color: white;
+
+}
+#barra_i{
+	width: 250px;
+	height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+	background: #424242;
+	
+	float: right;
+
+	border-radius: 20px;
+	overflow: hidden;
+
+	color: white;
+
+}
+
+#barra_c{
+	width: 250px;
+	height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+	background: #424242;
+	
+	float: right;
+
+	border-radius: 20px;
+	overflow: hidden;
+
+	color: white;
+
+}
+aside{
+	width: 250px;
+	height: 500px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+	background: #424242;
+	
+	float: right;
+
+	border-radius: 20px;
+	overflow: hidden;
+
+	color: white;
+
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+
+}
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+
+
+
+#resplandor
+{
+width: 80%;
+background: slategray;
+box-shadow: 0px 0px 20px gray;
+border-radius: 10px;
+}
+
+
+
+
+#martillo {
+  animation:animacion_martillo 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s; 
+
+}
+
+
+@keyframes animacion_martillo {
+  0% {
+    transform: rotate(0deg);
+    top:0px
+  }
+  50% {
+    transform: rotate(90deg);
+    top:57px
+  }
+  100% {
+    transform: rotate(0deg);
+    top:0px
+  }
+}
+
+#editable{
+  
+    width: 355px;
+    height: 170px;
+    border: 3px dotted #A4AE5E;
+    border-radius: 11px;
+    background-color: dimgray;
+    font-family: OpenSans;
+    font-size: 15px;
+    padding: 5px 0px 5px 25px;
+    margin: 10px;
+    overflow: auto;
+}
+
+#sombras{
+	
+	background: gray;
+	box-shadow: 7px 9px 15px white inset;
+
+}
+
+
+#columnas{
+	background: slategray;
+   column-count:4;
+   column-gap:20px;
+   column-rule:4px double black;
+   list-style: none;
+   border-radius: 15px;
+
+}
